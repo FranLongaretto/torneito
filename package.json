@@ -1,0 +1,22 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "description": "webscrapping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "fran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "requests": "^0.3.0"
+  }
+}

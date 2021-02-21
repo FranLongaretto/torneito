@@ -1,0 +1,75 @@
+<header class="page"> 
+    <div class="title">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_Campeonato_Uruguayo_Primera_Divisi%C3%B3n_Profesional.png" alt="Logo Primera Division uruguaya" class="logoimg">
+    </div>
+</header>
+
+    <div class="page">
+        <div class="equipos equipos1">             
+            <ul class="ul_equipos">
+                <li><a href="https://www.nacional.uy" class="links" target="_blank">Nacional</a></li>
+                <li><a href="https://www.xn--pearol-xwa.org/home" class="links" target="_blank">CA Peñarol</a></li>
+                <li><a href="http://www.danubio.org.uy/index_1.html" class="links" target="_blank">Danubio FC</a></li>
+                <li><a href="https://www.defensorsporting.com.uy" class="links" target="_blank">Defensor Sporting</a></li>
+                <li><a href="https://montevideocitytorque.com" class="links" target="_blank">Montevideo City Torque</a></li>
+                <li><a href="https://www.facebook.com/bostonriveroficial/" class="links" target="_blank">CA Boston River</a></li>
+                <li><a href="https://www.mwfc.com.uy" class="links" target="_blank">Montevideo Wanderers FC</a></li>
+                <li><a href="https://www.facebook.com/PLAZA.COLONIA.SITIO.OFICIAL/" class="links" target="_blank">Plaza Colonia</a></li>
+                <li><a href="https://cacerro.com" class="links" target="_blank">CA Cerro</a></li>
+                <li><a href="http://deportivomaldonado.com" class="links" target="_blank">CA Maldonado</a></li>
+                <li><a href="https://www.cafenix.com.uy" class="links" target="_blank">Centro Atletico Fenix</a></li>
+                <li><a href="http://www.liverpoolfc.com.uy" class="links" target="_blank">Liverpool FC</a></li>
+                <li><a href="https://cariverplate.uy" class="links" target="_blank">CA River Plate</a></li>
+                <li><a href="https://racingclub.com.uy" class="links" target="_blank">Racing Club de Montevideo</a></li>
+                <li><a href="https://www.facebook.com/www.rentistas.com.uy/" class="links" target="_blank">CA Rentistas</a></li>
+                <li><a href="https://www.facebook.com/CerroLargoFc/" class="links" target="_blank">Cerro Largo FC</a></li>
+            </ul>
+        </div> 
+
+        <div class="divtabla">
+            <table class="tabla">
+                <caption>Tabla de Posiciones</caption>
+                <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Club</th> 
+                    <th>Jug</th>           
+                    <th>Gan</th>           
+                    <th>Emp</th>            
+                    <th>Perd</th>            
+                    <th class="dif1">D.Gol</th>           
+                    <th>Puntos</th>
+                </tr>
+                </thead>
+                <tbody>
+                    {{#each parametros.campeonato}}
+                <tr class="{{#getcolorbyindex @index}}{{/getcolorbyindex}}">                    
+                    <td class="{{#getcolorbypos pos}}{{/getcolorbypos}}">{{pos}}</td>
+                    <td class="club">
+                        <div class="logodesktop">
+                            <img src="{{escudo}}" alt="escudo" class="logo">
+                        </div>
+                        <div class="logomobile">
+                            <a href="https://www.nacional.uy" title="{{nombre}}" alt="{{nombre}}" target="blank"><img src="{{escudo}}" alt="escudo" class="logo"></a>
+                        </div>
+                        <div class="nombre1 nombre">
+                            {{nombre}}
+                        </div>
+                    </td>
+                    <td>{{jugados}}</td>
+                    <td>{{ganados}}</td>
+                    <td>{{perdidos}}</td>
+                    <td>{{empatados}}</td>
+                    <td class="dif1">{{dif_gol}}</td>
+                    <td class="puntos">{{puntos}}</td>
+                </tr> 
+                    {{/each}}
+                </tbody>      
+            </table>
+            
+        </div>
+    </div>
+       
+<footer class="page">    
+    <img src="" alt="" class="">
+</footer>

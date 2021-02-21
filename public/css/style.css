@@ -1,0 +1,271 @@
+   
+.logoimg {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+body {
+    background-image: url(https://static9.depositphotos.com/1011268/1193/i/950/depositphotos_11930190-stock-photo-green-grass.jpg);
+    justify-content: center;
+    font-family: Roboto;
+    min-width: 735px;
+}
+.divtabla {
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.tabla {
+    margin: auto;
+    border: solid;
+    border-color: darkblue;
+    border-collapse: collapse;
+    text-align: center;    
+}
+.tabla caption {
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.celdas_pos_1 {
+    background-color: lawngreen;
+    border-radius: 40%;
+}
+.celdas_pos_2 {
+    background-color: orangered;
+    border-radius: 40%;
+}
+.puntos {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+.club {
+    display: flex;
+    font-weight: bold;
+}
+.page {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-right: auto;
+    background-color: white;
+    max-width: 920px;
+}
+th, td {
+    padding: 0 15px;
+}
+thead {
+    background-color: lightgrey;
+}
+.equipos {
+    display: flex;
+    margin: auto;
+}
+.ul_equipos {
+    list-style: none;
+    padding: 0;
+}
+.ul_equipos li {
+    padding: 10px 0;
+}
+.links:hover {
+    color: lightskyblue;
+    
+}
+.links {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.logo {
+    max-width: 40px;
+}
+.nombre {
+    margin: auto;
+}
+.primeros {
+    background-color: greenyellow;
+}
+.ultimos {
+    background-color: rgb(201, 68, 68);
+}
+.fondocolor {
+    background-color: #cfced9;
+}
+.logomobile {
+    display: none;
+}
+
+@media(max-width: 900px) {
+    
+    .logoimg {
+        display: flex;
+        max-width: 90%;
+        margin: auto;
+    }
+    .logomobile {
+        display: flex;
+    }
+    .primeros {
+        background-color: greenyellow;
+    }
+    .ultimos {
+        background-color: rgb(201, 68, 68);
+    }
+    .fondocolor {
+        background-color: #cfced9;
+    }
+    body {
+        background-image: url(https://static9.depositphotos.com/1011268/1193/i/950/depositphotos_11930190-stock-photo-green-grass.jpg);
+        justify-content: center;
+        font-family: Roboto;
+        min-width: 735px;
+    }
+    .logodesktop {
+        display: none;
+    }
+    .divtabla {
+        display: flex;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .tabla {
+        margin: auto;
+        border: solid;
+        border-color: darkblue;
+        border-collapse: collapse;
+        text-align: center;    
+    }
+    .tabla caption {
+        margin: 20px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .celdas_pos_1 {
+        background-color: lawngreen;
+        border-radius: 40%;
+    }
+    .celdas_pos_2 {
+        background-color: orangered;
+        border-radius: 40%;
+    }
+    .puntos {
+        background-color: lightskyblue;
+        font-weight: bold;
+    }
+    .club {
+        display: flex;
+        font-weight: bold;
+    }
+    .page {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        margin-right: auto;
+        background-color: white;
+        max-width: 920px;
+    }
+    th, td {
+        padding: 0 15px;
+    }
+    thead {
+        background-color: lightgrey;
+    }
+    .equipos1 {
+        display: none;
+    }
+    .logo {
+        max-width: 40px;
+    }
+    .nombre {
+        margin: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .logoimg {
+        display: flex;
+        max-width: 90%;
+        margin: auto;
+    }
+    body {
+        background-color: white;
+        justify-content: center;
+        font-family: Roboto;
+        margin: 0;
+        min-width: unset;
+    }
+    .primeros {
+        background-color: greenyellow;
+    }
+    .ultimos {
+        background-color: rgb(201, 68, 68);
+    }
+    .fondocolor {
+        background-color: #cfced9;
+    }
+    .title {
+        margin: auto;
+    }
+    .divtabla {
+        display: flex;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .tabla {
+        margin: auto;
+        border: solid;
+        border-color: darkblue;
+        border-collapse: collapse;
+        text-align: center;  
+        font-size: 16px;  
+    }
+    .tabla caption {
+        margin: 20px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .celdas_pos_1 {
+        background-color: lawngreen;
+        border-radius: 40%;
+    }
+    .celdas_pos_2 {
+        background-color: orangered;
+        border-radius: 40%;
+    }
+    .puntos {
+        background-color: lightskyblue;
+        font-weight: bold;
+    }
+    .club {
+        display: flex;
+        font-weight: bold;
+    }
+    .page {
+        display: flex;
+        background-color: white;    
+    }
+    th, td {
+        padding: 0 3px;
+    }
+    thead {
+        background-color: lightgrey;
+    }
+    .equipos1 {
+        display: none;
+    }
+    .logo {
+        max-width: 40px;
+    }
+    .nombre1, .dif1 {
+        display: none;
+    }
+}
+    
